@@ -1,0 +1,9 @@
+---
+- name: PLAYBOOOK | CREATE VM FOR TESTING
+  hosts: localhost
+  vars:
+    bob: "This is bobs variable string"
+  tasks:
+    - name: My First Task
+      debug:
+        var: bob
