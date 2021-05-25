@@ -6,4 +6,4 @@
 
   - name: Output disk size of the first disk
     debug:
-      var: ansible_facts.disks[0].size
+      var: ansible_facts.disks[0].size/1024
